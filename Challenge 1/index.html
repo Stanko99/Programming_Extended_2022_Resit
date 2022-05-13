@@ -5,15 +5,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Assingment 1</title>
 		<link rel="stylesheet" href="styles/mystyle.css">
-		<link href="https://fonts.googleapis.com/css?family=DM+Mono&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
 	</head>
 	<doby>
-		<h2> Ship parameters</h2>
-		<div class="parameters">
+
+			<div class="bg-video">
+				<video autoplay muted loop>
+					<source src="assets/bg-vid.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<h2 id="placeholder">Hello, this is a placeholder</h2>
+
+			
+		<div class="parameters-c">
 			<div class="outer">
 				<div class="inner">
 					<div class="value">
-						70% Fuel
+						<p></p>
+						<p id="fuel">-</p>
 					</div>
 				</div>
 			</div>
@@ -28,12 +40,11 @@
 					        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
 				 		</svg> 
 				 	</div>	
-	
-
 			<div class="outer">
 				<div class="inner">
 					<div class="value">
-						100% Throttle
+						<p><p>
+						<p id="rpm">-</p>
 					</div>
 				</div>
 			</div>
@@ -48,14 +59,12 @@
 					        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
 				 		</svg> 
 				 	</div>	
-
-
-
 			<div class="outer">
 				<div class="inner">
-					<div class="value">
-						4486 km/h
-					</div>
+						<div class="value">
+							<p><p>
+							<p id="km/h"></p>
+						</div>
 				</div>
 			</div>
 							<div class="effect3">
@@ -68,22 +77,92 @@
 					         </defs>
 					        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
 				 		</svg> 
-				 	</div>	
-
+				 	</div>
 		</div>
 
 
 
+	        <div class="ship-parameters">
+		        <div class="outer">
+					<div class="inner">
+						<div class="fuel-ship">
+							<p><p>
+							<p id="damage">-</p>
+						</div>
+					</div>
+				</div>
+				<div class="effect4">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+					         <defs>
+					            <linearGradient id="GradientColor">
+					               <stop offset="0%" stop-color="#e91e63" />
+					               <stop offset="100%" stop-color="#673ab7" />
+					            </linearGradient>
+					         </defs>
+					        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+				 		</svg> 
+				 	</div>
+
+	            <div class="throttle-ship" >
+	                <h3>Oxygen Capacity:</h3>
+	                <p id="oxygen-cap">-</p>
+	            </div>
+	            <div class="speed-ship" >
+	                <h3>Engine Fluids:</h3>
+	                <p id="speed">-</p>
+	            </div>
+	            <div class="acceleration-ship">
+	                <h3>Temperature:</h3>
+	                <p id="temperature"></p>
+	            </div>
+        </div>
+
+        <div class="ship-eviroment">
+	            <div class="power-usage" >
+	                <h3>Electricity Usage:</h3>
+	                <p id="power">-</p>
+	            </div>
+	            <div class="gravity-ship" >
+	                <h3>Gravitational waves:</h3>
+	                <p id="gravity">-</p>
+	            </div>
+	            <div class="gravity-converter" >
+	                <h3>Mission Outcome</h3>
+	                <p id="outcome">-</p>
+	            </div>
+        </div>
+
+        <div class="ship-supplies">
+	            <div class="food-ship" >
+	                <h3>Food availability:</h3>
+	                <p id="food">-</p>
+	            </div>
+	            <div class="water-ship" >
+	                <h3>Water availability:</h3>
+	                <p id="water">-</p>
+	            </div>
+	            <div class="mars-ship" >
+	                <h3>Miles to Mars:</h3>
+
+	                <p id="mars">-</p>
+	            </div>
+        </div>
+   
 
 
-		<!--I will devide the different information 
-		<h2> Ship Enviroment</h2>
-		<div class= "enviroment">
-		</div>
 
-		<h2> Ship Supplies</h2>
-		<h2> Ship Metrics</h2>
-		-->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

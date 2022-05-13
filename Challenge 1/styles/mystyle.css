@@ -7,16 +7,32 @@
 body {
 	height: 100vh;
 	width: 100vw;
-	background: #e3edf7;
+	overflow: hidden;
+	color: #fff;
+	font-family: 'Patua One', cursive;
+	font-size: 18px;
  }
 
- h2 {
- 	text-align: center;
- 	padding-top: 30px;
- 	padding-bottom: 30px;
- }
+ .bg-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover, repeat;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+h2 {
+	margin-bottom: 300px;
+	opacity: 0;
+}
  
-.parameters {
+.parameters-c {
+	margin-top: 100px;
 	width: 100vw;
 	height: auto;
 	display: flex;
@@ -24,6 +40,8 @@ body {
 	justify-content: space-evenly;
 	align-items: center;
 	position: relative;
+	background-color: rgba(0, 0, 0, 0.2);
+	
 }
 
 .outer	{
@@ -62,11 +80,7 @@ circle {
 
 }
 
-svg{
-	position:absolute ;
 
-
-}
 
 @keyframes anim{
 	100%{
@@ -91,5 +105,50 @@ svg{
 	position: absolute;
 	top: 5px;
 	left: 1404px;
+}
+
+.effect4	{
+	position: absolute;
+	top: 605px;
+	left: 270px;
 
 }
+
+.ship-parameters {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: space-evenly;
+    text-align: center;
+
+
+
+
+
+}
+
+.ship-eviroment {
+    display: flex;
+    flex-direction: row;
+	background-color: rgba(0, 0, 0, 0.2);
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+
+
+
+.ship-supplies {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: space-evenly;
+    text-align: center;
+
+
+};
+
+
+
