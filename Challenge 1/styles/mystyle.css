@@ -23,11 +23,12 @@ body {
   top: 0;
   bottom: 0;
   z-index: -1;
+  filter: brightness(30%);
 }
 
 
 h2 {
-	margin-bottom: 300px;
+	margin-bottom: 100px;
 	opacity: 0;
 }
  
@@ -40,7 +41,7 @@ h2 {
 	justify-content: space-evenly;
 	align-items: center;
 	position: relative;
-	background-color: rgba(0, 0, 0, 0.2);
+	
 	
 }
 
@@ -67,6 +68,11 @@ h2 {
 				0px 12px 10px -10px rgba(0,0,0,0.5);
  
 
+}
+
+.acceleration-ship, .throttle-ship { 
+
+	margin-top: 50px;
 }
 
 circle {
@@ -109,16 +115,54 @@ circle {
 
 .effect4	{
 	position: absolute;
-	top: 605px;
-	left: 270px;
+	left: 350px;
+	margin-top: 3px;
+	margin-left: 7.5px;
 
 }
+
+.effect5	{
+	position: absolute;
+	margin-top: 3px;
+
+
+
+}
+
+.effect6	{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 2px;
+	left: 1400px;
+	
+
+
+}
+
+.effect7 	{
+	position: absolute;
+	margin-left: 2px;
+	top: 630px;
+	left: 876px;
+	
+
+
+}
+
+
+
+
+
+
+
+
+
 
 .ship-parameters {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 50px;
     justify-content: space-evenly;
     text-align: center;
 
@@ -131,7 +175,6 @@ circle {
 .ship-eviroment {
     display: flex;
     flex-direction: row;
-	background-color: rgba(0, 0, 0, 0.2);
     justify-content: space-evenly;
     text-align: center;
 
@@ -143,9 +186,11 @@ circle {
 .ship-supplies {
     display: flex;
     flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.2);
     justify-content: space-evenly;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    padding-bottom: 500px;
 
 
 };
