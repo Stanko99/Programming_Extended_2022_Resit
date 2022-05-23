@@ -190,7 +190,7 @@ circle {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.06);
+    background-color: rgba(0, 0, 0, 1);
     padding: 50px;
     padding-bottom: 50px;
 
